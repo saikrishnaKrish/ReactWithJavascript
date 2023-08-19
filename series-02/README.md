@@ -29,7 +29,7 @@ Step 3
 Define data state and flow. The state should have the bare minimum of data and should be non-redundant. If we want total bill amount, we should not use total as separate attribute beacause it will be calculated on the basis of sum of all the individual products total. Due to the fact that the total is calculated instantly and we are confident that it is always consistent with the bill list, the issue of updating a separate total variable is avoided when a new bill is added or deleted.
 
 ###################################################################################################################
-![image](https://github.com/saikrishnaKrish/ReactWithJavascript/assets/82278675/48cf2aa8-08eb-439f-9a3a-de725b7a26d9)
+![image](https://github.com/saikrishnaKrish/ReactWithJavascript/assets/82278675/bc0643dd-f4f9-4607-a165-c50dc05bcdab)
 
 
 

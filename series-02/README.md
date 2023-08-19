@@ -8,7 +8,8 @@ A user may include new products.
 Show the entire amount due.
 BROAD STEPS
 
-![image](https://github.com/saikrishnaKrish/ReactWithJavascript/assets/82278675/8db8caf6-507d-415b-b192-35f457843bc7)
+![image](https://github.com/saikrishnaKrish/ReactWithJavascript/assets/82278675/01b3c691-747e-4ad1-9724-5e68b7e7b7e5)
+
 
 Step 1
 We must first consider the potential components before we begin to code. The single responsibility principle design pattern, which states that a component should only carry out a single responsibility, is highly beneficial in this step. If you see that it is performing several tasks, break them down into separate components. In this case, our application has seven main parts. They are :

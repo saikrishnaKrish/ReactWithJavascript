@@ -1,6 +1,6 @@
 
 
-Typically, a JavaScript build toolchain consists of:
+###Typically, a JavaScript build toolchain consists of:
 
 A package manager, like Yarn or npm. It enables you to access a vast ecosystem of third-party packages and simplifies installing or updating them.
 A bundler (webpack in this case) lets you write modular code and bundle it into small packages to optimize load time.

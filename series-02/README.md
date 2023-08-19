@@ -18,7 +18,7 @@ We must first consider the potential components before we begin to code. The sin
 3. Filter bill (Search)
 4. Product List
 5. The title bar of the product list (part of component 4)
-6. ingle bill row of product list (part of component 4)
+6. Single bill row of product list (part of component 4)
 7. Total Bill Amount
 
 Step 2

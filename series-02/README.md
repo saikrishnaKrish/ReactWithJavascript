@@ -44,17 +44,7 @@ class UncontrolledForm extends React.Component {
     // Process form data using inputValue
   };
 
-  render() {
-    return (
-      <form onSubmit={this.handleSubmit}>
-        <input type="text" ref={(input) => (this.inputRef = input)} />
-        <button type="submit">Submit</button>
-      </form>
-    );
-  }
-}
-## Formik:
-Formik is a popular third-party library for managing forms in React. It simplifies form handling by providing a higher-level abstraction and features like validation, form submission, and field management.
+### `npm run build`
 
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 
@@ -77,18 +67,11 @@ const FormikForm = () => (
 
 These are some of the main approaches to form handling in React. Each approach has its own advantages and use cases, so you can choose the one that best fits your project requirements. 
 
-Here are some real-time use cases for using different types of forms in React:
+### `npm run eject`
 
-## Controlled Components:
-Controlled components are useful in scenarios where you need fine-grained control over user input and want to synchronize form data with React state. Some use cases include:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### User registration and profile editing forms:
- You can update the state as the user fills in the form, allowing you to validate and display real-time feedback.
-### Search forms: 
-As users type in search queries, you can update the search query in the state and trigger a search request.
-Multi-step forms: For multi-step processes, you can store the current step and form data in the state, making it easy to navigate back and forth.
-### Uncontrolled Components:
-Uncontrolled components are handy when you want to work with form elements more directly and don't need to track every change in real-time. Some use cases include:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
 ### Simple input fields:
  If you just need to collect some data without complex validation or interactions, using uncontrolled components can be more straightforward.
@@ -115,8 +98,13 @@ Remember that the choice of form handling approach depends on the specific requi
 
 
 
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
 
 
+### `npm run build` fails to minify
 
-
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

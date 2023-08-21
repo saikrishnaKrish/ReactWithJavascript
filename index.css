@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+
+
+
+.items{
+    background-color: orange;
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+
+#selected{
+    background-color: antiquewhite;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./index.css" rel="stylesheet" >
+    <script src="./index.js"></script>
+</link>
+</head>
+<body>
+    <div class="items"> start</div> 
+    <div id="selected" class="items">  selected one</div>
+    <div class="items"> end</div>
+
+    specificity for a class
+    id-100
+    class-10
+    elementTag -1
+
+    Box model
+    is there for everby element 
+    padding
+    border
+    margin
+    ========================
+    distance between two box's --margin
+    margin -left,right,top,bottom
+    padding --distance between the content and border.
+    padding -left,right,top,bottom
+    border -  
+
+    margin collapse
+    If margin bottom for the above element and margin top for the next element
+    among them we will take the maximum one
+    It is called margin collapse
+
+
+    By default it is content-box
+    if you want the element to be restricted within the space we will use border box
+    box-sizing:border-box
+    width and height should be 200px
+    the width and height should be applied by accomodating 
+    margin and padding within the allocated width and height
+
+
+
+    content-box
+    box-sizing:content-box 
+    extra width and height will be taken
+    box-sizing:border-box 
+    width and height will be adjusted inside the box
+
+
+    Inline elements wont take width and height
+    Inline elements required based on the content
+    if we want it to take width and height we have to use display:inline-block
+
+
+    display:inline-block it will add some extra space between the elements
+    To remove the extra space we have to use float
+</body>
+</html>

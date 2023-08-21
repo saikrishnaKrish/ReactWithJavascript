@@ -1,6 +1,6 @@
 import React from 'react'
 
-const inputComponent = ({
+const InputComponent = ({
     label,
     name,
     value,onChange
@@ -8,6 +8,7 @@ const inputComponent = ({
   return (
     <div>
         <label for={label}>{label}</label>
+        &nbsp;
         <input name={name}
                 value={value}
                 onChange={onChange}
@@ -16,4 +17,4 @@ const inputComponent = ({
   )
 }
 
-export default inputComponent
+export default InputComponent
